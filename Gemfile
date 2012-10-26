@@ -9,6 +9,8 @@ gem 'sqlite3'
 
 gem 'sqlite3-ruby', '1.3.1', :require => 'sqlite3'
 
+ gem 'gravatar_image_tag'
+
 group :development do
 	gem 'rspec-rails', '2.11.0'
 	gem 'annotate', '>=2.5.0'
@@ -17,6 +19,7 @@ group :test do
 	gem 'rspec', '2.11.0'
 	gem 'webrat', '0.7.3'
 	gem 'spork'
+	gem 'factory_girl_rails'
 end
 
 
