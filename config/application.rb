@@ -72,5 +72,7 @@ module SampleApp
             ActiveSupport::Dependencies.mechanism = :load
         end
     end
+
+    config.action_view.javascript_expansions[:defaults] = %w(jquery rails)
   end
 end
